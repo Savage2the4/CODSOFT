@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 7.9rem;
+}
+
+body {
+    background-color: rgb(20, 20, 20);
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+   
+  
+}
+#Home{
+    width: -1px;
+}
+#About{
+    width: -1px;
+}
+#Skills{
+    width: -1px;
+}
+#Contact{
+    width: -1px;
+}
+nav{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background-color: rgb(14, 14, 14);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+nav ul{
+position: relative;
+    justify-content: center;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+nav ul li{
+    list-style: none;
+    margin: 0px 15px;
+    position: relative;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s ease;
+position: relative;
+}
+nav ul li a:hover{
+    
+    color: rgb(255 79 90);;
+
+}
+.left{
+    font-size: 2rem;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.logo{
+    height: 12px 12px;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+}
+.leftsection{
+    
+    margin-top: 240px;
+    font-size: 3rem;
+}
+
+.rightsection{
+    
+    width: 30%;
+}
+.rightsection img{
+
+    width: 120%;
+    margin: 56px 0;
+    margin-left: -88px;
+}
+.logo{
+    width: 340px;
+}
+.secondsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 123px 0;
+    
+}
+.Yellow{
+    color: rgb(255 79 90);
+}
+.abt{
+    margin: auto;
+    max-width: 80vw;
+    font-size: 3rem;
+    
+}
+
+
+.rightabt{
+    width: 50%;
+}
+.leftabt{
+    width: 30%;
+}
+section div p{
+    font-size: 1.3rem;
+}
+.thirdsection{
+    margin: 80px ;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.box1{
+    
+    width: 30%;
+    
+    text-align: center;
+    
+}
+.box2{
+    
+    width: 30%;
+    
+    text-align: center;
+    margin: 20px;
+    
+}
+.hr{
+    border: 0;
+    background-color: rgb(255 79 90);
+    height: 8px;
+    margin: 0 75px;
+    border-radius: 40px;
+}
+
+.head1{
+    border: 4px solid rgb(255 79 90);
+    margin: 10px;
+    border-radius: 23px;
+    margin-bottom: 40px;
+    font-size: 5vh;
+    text-align: center;
+}
+.head2{
+    border: 4px solid rgb(255 79 90);
+    margin: 41px 0px;
+    border-radius: 23px;
+    font-size: 5vh;
+    text-align: center;
+}
+.head3{
+    border: 4px solid rgb(255 79 90);
+    margin: 10px;
+    border-radius: 23px;
+    margin-bottom: 40px;
+    font-size: 5vh;
+    text-align: center;
+}
+.p{
+    font-size: 15px;
+}
+.btn{
+    padding: 13px;
+    background-color: rgb(26, 25, 25);
+    color: white;
+    border: 3px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.2s ease;
+    
+}
+.btn:active{
+    transform: scale(0.96);
+}
+.btn:hover{
+    background-color: rgb(255 79 90);
+        
+}
+.forthsection{
+    margin: 80px 0;
+    
+    text-align: center;
+    height: 80vh;
+    
+}
+.cont{
+    font-size: 50px;
+}
+.hr1{
+    border: 0;
+    background-color: rgb(255 79 90);
+    height: 8px;
+    margin: 0 525px;
+    border-radius: 40px;   
+}
+.boxes1{
+
+    width: 40%;
+    text-align: center;
+}
+.boxes2{
+
+    width: 40%;
+    text-align: center;
+}
+.cnt{
+
+    display: flex;
+    justify-content: space-between;
+    margin: 150px;
+}
+.ul{
+    margin: 97px;
+}
+.hr2{
+    border: 0;
+    background-color: rgb(255 79 90);
+    width: 8px;
+    border-radius: 20px;
+}
+.hed{
+    font-size: 33px;
+}
+.foot{
+    background-color:rgb(14, 14, 14);
+    margin: auto;
+    display: flex;
+}
+.socialicons{
+    color: white;
+ font-size: 43px;
+ transition: color 0.2s;
+}
+.socialicons:hover{
+    color: rgb(255 79 90);
+}
+.socialbox{
+
+        margin: 43px 0;
+        display: flex;
+        justify-content: space-between;
+}
+.bld{
+    font-style: italic;
+}
